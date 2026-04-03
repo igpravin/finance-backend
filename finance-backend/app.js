@@ -6,6 +6,12 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 
+// ✅ ROOT ROUTE
+app.get("/", (req, res) => {
+  res.send("Finance API is running 🚀");
+});
+
+// Routes
 app.use("/api/auth", require("./routes/authRoutes"));
 app.use("/api/users", require("./routes/userRoutes"));
 app.use("/api/records", require("./routes/recordRoutes"));
