@@ -14,11 +14,15 @@ User authentication (JWT)
 Role-based access control
 Financial records CRUD operations
 Dashboard summary (income, expense, balance)
+
+
 🛠 Tech Stack
 Node.js
 Express.js
 MongoDB (Mongoose)
 JWT Authentication
+
+
 📂 Features
 1. User Management
 Register user
